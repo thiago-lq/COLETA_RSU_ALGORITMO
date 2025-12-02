@@ -57,7 +57,7 @@ class OtimizadorRotas:
             arvore = nx.minimum_spanning_tree(grafo, weight=self.peso, algorithm=self.algoritmo)
                 
         except Exception as e:
-            print(f"Erro no Prim: {e}")
+            print(f"Erro no uso do algoritmo: {e}")
             return None, None
         
         tempo_execucao = time.time() - inicio

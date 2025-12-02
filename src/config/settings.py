@@ -4,7 +4,7 @@ BAIRRO_FOCO = "" # Nome do bairro
 
 # ==================== CONFIGURAÇÕES DE API ====================
 NOMINATIM_URL = "https://nominatim.openstreetmap.org/search" # URL da API do Nominatim, GPS localizador
-OVERPASS_URL = "https://overpass-api.de/api/interpreter" # URL da API do Overpass, busca as ruas
+OVERPASS_URL = "https://overpass-api.de/api/interpreter" # URL da API do Overpass, listagem de ruas
 TIMEOUT = 180 # Tempo limite para obter dados da API
 USER_AGENT = "Coleta/1.0" # User-Agent para a API
 
