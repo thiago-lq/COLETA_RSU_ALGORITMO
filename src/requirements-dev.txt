@@ -1,0 +1,4 @@
+# requirements-dev.txt - DEPENDÊNCIAS DE DESENVOLVIMENTO
+jupyter==1.0.0
+black==23.0.0
+pytest==7.0.0
