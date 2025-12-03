@@ -1,6 +1,6 @@
 # ==================== CONFIGURAÇÕES DA CIDADE ====================
-CIDADE = "Montes Claros, MG, Brasil" # Nome da cidade, estado, país
-BAIRRO_FOCO = "Belvedere" # Nome do bairro
+CIDADE = "" # Nome da cidade, estado, país
+BAIRRO_FOCO = "" # Nome do bairro
 
 # ==================== CONFIGURAÇÕES DE API ====================
 NOMINATIM_URL = "https://nominatim.openstreetmap.org/search" # URL da API do Nominatim, GPS localizador
@@ -9,7 +9,7 @@ TIMEOUT = 180 # Tempo limite para obter dados da API
 USER_AGENT = "Coleta/1.0" # User-Agent para a API
 
 # ==================== CONFIGURAÇÕES DO ALGORITMO ====================
-ALGORITMO = "prim" # Algoritmo a ser usado, Prim ou Kruskal
+ALGORITMO = "" # Algoritmo a ser usado, 'prim' ou 'kruskal' -> prim = Prim - MST, kruskal = Kruskal - MST
 PESO_PADRAO = "length" # Atributo usado para calcular o peso do padrão
 
 # ==================== CONFIGURAÇÕES DE VISUALIZAÇÃO ====================
